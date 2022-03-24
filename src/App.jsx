@@ -21,12 +21,7 @@ function App() {
 
       <Router>
         <Navbar />
-        <Header />
-        <About />
-        <Exprience />
-        <Portfolio />
-        <Contact />
-        {/* <Routes>
+        <Routes>
           <Route
             path="/"
             element={
@@ -38,12 +33,12 @@ function App() {
                 <Contact />
               </>
             }
-          /> */}
-        {/* <Route path="#about" element={<About />} />
+          />
+          {/* <Route path="#about" element={<About />} />
           <Route path="#exprience" element={<Exprience />} />
           <Route path="#portfolio" element={<Portfolio />} />
           <Route path="#contact" element={<Contact />} /> */}
-        {/* </Routes> */}
+        </Routes>
         <Footer />
       </Router>
     </>
