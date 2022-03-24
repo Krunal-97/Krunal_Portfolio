@@ -66,7 +66,6 @@ $background_color: #f8f9fa;
 }
 .skill {
   font-size: 10px;
-
   height: 100px;
   width: 100px;
   margin: 20px;
@@ -114,4 +113,54 @@ $background_color: #f8f9fa;
   text-align: center;
   padding-top: 1rem;
   font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .about__container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem;
+  }
+
+  .about__info__right p {
+    margin: 0;
+  }
+  .about__image__left {
+    padding: 1rem 0;
+  }
+
+  .about__skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0rem;
+  }
+  .about__container .grid__structure {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "photo"
+      "info" "info";
+    margin: 0 0rem;
+  }
+  .about__image__left {
+    .left__image {
+      height: 160px;
+      width: 150px;
+      border-radius: 50%;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+      margin: 0 1rem;
+      img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+      }
+    }
+  }
 }

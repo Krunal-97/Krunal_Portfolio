@@ -1,4 +1,4 @@
-$color_1: #264653;
+$color_1: #151515;
 $color_2: #2a9d8f;
 $color_3: #e9c46a;
 $color_4: #f4a261;
@@ -9,7 +9,9 @@ $color2: #37ccff;
 $color3: #2df7a3;
 $color4: #017bfe;
 $background_color: #f8f9fa;
+$hover_color: #ffd700;
 
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
 .navbar-items {
   display: flex;
   justify-content: center;
@@ -30,9 +32,9 @@ $background_color: #f8f9fa;
   justify-self: start;
   margin-left: 10px;
   cursor: pointer;
-  color: $background_color;
-  font-weight: bold;
-  font-size: 30px;
+  color: $hover_color;
+  font-size: 2.5rem;
+  font-family: "Birthstone", cursive;
 }
 
 .fa-brands {
@@ -53,11 +55,15 @@ $background_color: #f8f9fa;
 .nav-links {
   text-decoration: none;
   padding: 1rem 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: $background_color;
 }
 
 .nav-links:hover {
-  transition: all 1s ease-out;
-  border-bottom: 1px solid $background_color;
+  transition: all 0.5s ease-out;
+  border-bottom: 1px solid $hover_color;
+  color: $hover_color;
 }
 .nav-logo:hover {
 }
@@ -95,12 +101,6 @@ $background_color: #f8f9fa;
     padding: 2rem;
     width: 100%;
     display: table;
-  }
-
-  .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
-    border-radius: 0;
   }
 
   .navbar-logo {

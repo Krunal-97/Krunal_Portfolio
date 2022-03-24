@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export class Navbar extends Component {
-  state = { clicked: false };
+  state = { clicked: false, val: "<Krunal-97 />" };
   clickHandler = () => {
     this.setState({ clicked: !this.state.clicked });
   };
@@ -11,7 +11,7 @@ export class Navbar extends Component {
     return (
       <nav className="navbar-items">
         <a href="#header" className="nav-links nav-logo">
-          <span className="navbar-logo">Krunal Parmar</span>
+          <span className="navbar-logo">{this.state.val}</span>
         </a>
 
         <div className="menu-icon" onClick={this.clickHandler}>

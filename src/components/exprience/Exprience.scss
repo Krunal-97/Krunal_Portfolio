@@ -27,3 +27,11 @@ $background_color: #f8f9fa;
     border-radius: 10px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .exprience__container {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

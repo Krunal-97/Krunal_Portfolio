@@ -69,3 +69,30 @@ $background_color: #f8f9fa;
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .project {
+    height: fit-content;
+    width: 200px;
+    margin: 0 auto;
+  }
+  img {
+    width: 200px;
+  }
+
+  .project__btns {
+    display: flex;
+
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}

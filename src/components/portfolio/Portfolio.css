@@ -80,4 +80,41 @@
   background-color: #f8f9fa;
   color: #264653;
 }
+
+@media only screen and (max-width: 600px) {
+  .portfolio__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .project {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 200px;
+    margin: 0 auto;
+  }
+  img {
+    width: 200px;
+  }
+  .project__btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=Portfolio.css.map */

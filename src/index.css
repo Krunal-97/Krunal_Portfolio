@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Jost:wght@300&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Jost:wght@300&family=Open+Sans:wght@300&family=Overpass&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -9,6 +9,7 @@
   font-family: "IBM Plex Sans", sans-serif;
   font-family: "Jost", sans-serif;
   font-family: "Open Sans", sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 
 .btn {
@@ -48,5 +49,17 @@ section h2 {
 .container {
   width: 900px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec__container {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=index.css.map */
