@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Krunal.github.io/static/css/main.4e610a44.css",
-    "main.js": "/Krunal.github.io/static/js/main.d1b62270.js",
-    "static/media/amazon.png": "/Krunal.github.io/static/media/amazon.b07b9d3f7ced9325ece7.png",
-    "static/media/Ticker.png": "/Krunal.github.io/static/media/Ticker.8853fa5ff58ca31e9d16.png",
-    "static/media/intelligentSearch.png": "/Krunal.github.io/static/media/intelligentSearch.71aa72e6d824c6e8e32d.png",
-    "static/media/CardScanner.png": "/Krunal.github.io/static/media/CardScanner.0ea74e67c2bcb08a0811.png",
-    "static/media/profile.png": "/Krunal.github.io/static/media/profile.432879e07b6825316f76.png",
-    "static/media/Kruna_Parmar_Resume.pdf": "/Krunal.github.io/static/media/Kruna_Parmar_Resume.4a6a32de6fa8f01abf46.pdf",
-    "static/media/profile.jpeg": "/Krunal.github.io/static/media/profile.0f6b8092522445fcc93f.jpeg",
-    "static/media/WordPress.jpeg": "/Krunal.github.io/static/media/WordPress.f2522c346e446ede0686.jpeg",
-    "index.html": "/Krunal.github.io/index.html",
-    "main.4e610a44.css.map": "/Krunal.github.io/static/css/main.4e610a44.css.map",
-    "main.d1b62270.js.map": "/Krunal.github.io/static/js/main.d1b62270.js.map"
+    "main.css": "/static/css/main.4e610a44.css",
+    "main.js": "/static/js/main.20f6a316.js",
+    "static/media/amazon.png": "/static/media/amazon.b07b9d3f7ced9325ece7.png",
+    "static/media/Ticker.png": "/static/media/Ticker.8853fa5ff58ca31e9d16.png",
+    "static/media/intelligentSearch.png": "/static/media/intelligentSearch.71aa72e6d824c6e8e32d.png",
+    "static/media/CardScanner.png": "/static/media/CardScanner.0ea74e67c2bcb08a0811.png",
+    "static/media/profile.png": "/static/media/profile.432879e07b6825316f76.png",
+    "static/media/Kruna_Parmar_Resume.pdf": "/static/media/Kruna_Parmar_Resume.4a6a32de6fa8f01abf46.pdf",
+    "static/media/profile.jpeg": "/static/media/profile.0f6b8092522445fcc93f.jpeg",
+    "static/media/WordPress.jpeg": "/static/media/WordPress.f2522c346e446ede0686.jpeg",
+    "index.html": "/index.html",
+    "main.4e610a44.css.map": "/static/css/main.4e610a44.css.map",
+    "main.20f6a316.js.map": "/static/js/main.20f6a316.js.map"
   },
   "entrypoints": [
     "static/css/main.4e610a44.css",
-    "static/js/main.d1b62270.js"
+    "static/js/main.20f6a316.js"
   ]
 }
