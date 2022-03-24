@@ -1,0 +1,83 @@
+.portfolio__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio__container .project {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  color: #264653;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #264653;
+}
+
+.portfolio__container .project:hover {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border: 1px solid #f8f9fa;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.portfolio__container .project img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  height: 200px;
+  width: 350px;
+  border-radius: 5px;
+  margin: 1rem auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.portfolio__container .project__title {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.portfolio__container .project__description {
+  padding-left: 2rem;
+}
+
+.portfolio__container .project__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.portfolio__container .project__btns .btn:hover {
+  border: 1px solid #264653;
+  background-color: #f8f9fa;
+  color: #264653;
+}
+/*# sourceMappingURL=Portfolio.css.map */

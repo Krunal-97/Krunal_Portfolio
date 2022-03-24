@@ -1,0 +1,71 @@
+$color_1: #264653;
+$color_2: #2a9d8f;
+$color_3: #e9c46a;
+$color_4: #f4a261;
+$color_5: #e76f51;
+
+$color1: #a75eea;
+$color2: #37ccff;
+$color3: #2df7a3;
+$color4: #017bfe;
+$background_color: #f8f9fa;
+
+.header__contaier {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 1rem 10rem;
+  color: $background_color;
+  background-image: linear-gradient(to right, $color_1, $color2);
+
+  .header__left {
+    padding-left: 0;
+
+    .header_text {
+      font-size: 1.5rem;
+      width: 600px;
+      h1 {
+        font-weight: bold;
+      }
+    }
+    .header__icons {
+      font-size: 1.5rem;
+      a {
+        font-size: 3rem;
+        text-decoration: none;
+        color: $background_color;
+      }
+      .icon {
+        padding-right: 10px;
+        padding-left: 3px;
+      }
+    }
+
+    .header__download {
+      margin: 1rem 0;
+    }
+  }
+  .header__right {
+    .right__image {
+      img {
+        height: 335px;
+        width: 350px;
+        border-radius: 100%;
+      }
+    }
+  }
+  .btn {
+    margin-left: 0;
+    padding: 0.3rem 0.8rem;
+    margin-right: 1rem;
+    background-color: $background_color;
+    color: $color_1;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid $color_1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+}

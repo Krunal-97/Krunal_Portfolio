@@ -1,0 +1,65 @@
+$color_1: #264653;
+$color_2: #2a9d8f;
+$color_3: #e9c46a;
+$color_4: #f4a261;
+$color_5: #e76f51;
+
+$color1: #a75eea;
+$color2: #37ccff;
+$color3: #2df7a3;
+$color4: #017bfe;
+$background_color: #f8f9fa;
+
+.contact__container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-areas: "form icons";
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  height: 100vh;
+  form {
+    margin: 0 auto;
+  }
+  .form__sec {
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input,
+    textarea {
+      border-radius: 5px;
+      border: 1px solid $color_1;
+      padding: 10px;
+      width: 280px;
+    }
+  }
+  .form_lab {
+    margin-bottom: 1rem;
+  }
+  .form-control {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .header__icons {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    margin-right: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: $color_1;
+    }
+    .icon {
+      font-size: 2.5rem;
+      grid-area: icons;
+      padding-right: 10px;
+      padding-left: 3px;
+    }
+  }
+}

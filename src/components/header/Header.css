@@ -1,0 +1,72 @@
+.header__contaier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+  padding: 1rem 10rem;
+  color: #f8f9fa;
+  background-image: -webkit-gradient(linear, left top, right top, from(#264653), to(#37ccff));
+  background-image: linear-gradient(to right, #264653, #37ccff);
+}
+
+.header__contaier .header__left {
+  padding-left: 0;
+}
+
+.header__contaier .header__left .header_text {
+  font-size: 1.5rem;
+  width: 600px;
+}
+
+.header__contaier .header__left .header_text h1 {
+  font-weight: bold;
+}
+
+.header__contaier .header__left .header__icons {
+  font-size: 1.5rem;
+}
+
+.header__contaier .header__left .header__icons a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+.header__contaier .header__left .header__icons .icon {
+  padding-right: 10px;
+  padding-left: 3px;
+}
+
+.header__contaier .header__left .header__download {
+  margin: 1rem 0;
+}
+
+.header__contaier .header__right .right__image img {
+  height: 335px;
+  width: 350px;
+  border-radius: 100%;
+}
+
+.header__contaier .btn {
+  margin-left: 0;
+  padding: 0.3rem 0.8rem;
+  margin-right: 1rem;
+  background-color: #f8f9fa;
+  color: #264653;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 1px solid #264653;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/*# sourceMappingURL=Header.css.map */
