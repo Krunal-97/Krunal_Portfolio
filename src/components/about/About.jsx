@@ -11,13 +11,20 @@ import { SiPandas } from "react-icons/si";
 import { SiNumpy } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
+import { SiAmazonaws } from "react-icons/si";
+import { SiOpencv } from "react-icons/si";
+import Resume from "../../assets/Kruna_Parmar_Resume.pdf";
 
 const About = () => {
   return (
     <div id="about" className="about__container sec__container">
-      {/* <div className="sec__heading">
-        <h1>About Me</h1>
-      </div> */}
+      <div className="sec__heading">
+        <h1>
+          <span className="sec__subheading">About </span>
+          Me
+        </h1>
+      </div>
 
       <div className="grid__structure">
         <div className="about__image__left">
@@ -42,7 +49,7 @@ const About = () => {
               Intelligence and Software Development.
             </p>
             <p className="resume">
-              <a className="btn" href="#">
+              <a className="btn" target="_blank" href={Resume}>
                 Download Resume
               </a>
             </p>
@@ -51,6 +58,10 @@ const About = () => {
       </div>
 
       <div className="about__skills">
+        <div className="skill">
+          <IoLogoJavascript className="skill__icon" />
+          <h1>JavaScript</h1>
+        </div>
         <div className="skill">
           <FaReact className="skill__icon" />
           <h1>React</h1>
@@ -64,16 +75,20 @@ const About = () => {
           <h1>MongoDB</h1>
         </div>
         <div className="skill">
+          <FaSass className="skill__icon" />
+          <h1>Sass</h1>
+        </div>
+        <div className="skill">
           <FaPython className="skill__icon" />
           <h1>Python</h1>
         </div>
         <div className="skill">
-          <IoLogoJavascript className="skill__icon" />
-          <h1>JavaScript</h1>
+          <SiFlask className="skill__icon" />
+          <h1>Py-Flask</h1>
         </div>
         <div className="skill">
-          <FaSass className="skill__icon" />
-          <h1>Sass</h1>
+          <SiOpencv className="skill__icon" />
+          <h1>Opencv</h1>
         </div>
         <div className="skill">
           <SiPandas className="skill__icon" />
@@ -86,6 +101,10 @@ const About = () => {
         <div className="skill">
           <SiScikitlearn className="skill__icon" />
           <h1>SK-Learn</h1>
+        </div>
+        <div className="skill">
+          <SiAmazonaws className="skill__icon" />
+          <h1>AWS</h1>
         </div>
         <div className="skill">
           <SiMysql className="skill__icon" />

@@ -23,6 +23,7 @@ $hover_color: #ffd700;
 
   .header__left {
     padding-left: 0;
+    animation: slideInFromLeft 0.5s ease-in;
 
     .header_text {
       font-size: 1.5rem;
@@ -56,6 +57,7 @@ $hover_color: #ffd700;
     }
   }
   .header__right {
+    animation: slideInFromRight 0.5s ease-in;
     .right__image {
       img {
         height: 335px;

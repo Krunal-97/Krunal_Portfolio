@@ -1,16 +1,19 @@
-$color_1: #264653;
+$color_1: #151515;
 $color_2: #2a9d8f;
 $color_3: #e9c46a;
 $color_4: #f4a261;
 $color_5: #e76f51;
+$color_6: #264653;
 
 $color1: #a75eea;
 $color2: #37ccff;
 $color3: #2df7a3;
 $color4: #017bfe;
 $background_color: #f8f9fa;
+$hover_color: #ffd700;
 
 .exprience__container {
+  animation: slideInFromTop 0.5s ease-in;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,9 +21,10 @@ $background_color: #f8f9fa;
   height: 100vh;
 
   .exprience__section {
-    margin-bottom: 2rem;
-    color: $color_1;
+    margin: 2rem 0;
+    color: $color_6;
     padding: 2rem;
+    border: 1px solid $color_6;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
       rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;

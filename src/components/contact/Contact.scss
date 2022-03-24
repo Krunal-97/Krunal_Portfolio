@@ -1,14 +1,16 @@
-$color_1: #264653;
+$color_1: #151515;
 $color_2: #2a9d8f;
 $color_3: #e9c46a;
 $color_4: #f4a261;
 $color_5: #e76f51;
+$color_6: #264653;
 
 $color1: #a75eea;
 $color2: #37ccff;
 $color3: #2df7a3;
 $color4: #017bfe;
 $background_color: #f8f9fa;
+$hover_color: #ffd700;
 
 .contact__container {
   display: grid;
@@ -19,10 +21,44 @@ $background_color: #f8f9fa;
 
   margin: 0 auto;
   height: 100vh;
+  margin-top: -7rem;
+  input {
+    border: none;
+  }
+  .btn {
+    background-image: linear-gradient(to right, $color_1, $color2);
+    color: $background_color;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    &:hover {
+      transition: all 0.5s ease-out;
+      transform: scale(1.01);
+      background-image: none;
+      background-color: $hover_color;
+      color: $color_6;
+    }
+  }
+  .header__icons {
+    animation: slideInFromRight 0.5s ease-in;
+  }
+  .icon {
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-right: 0.3rem;
+    color: $color_6;
+    &:hover {
+      transition: all 0.5s ease-out;
+      border-radius: 3px;
+      transform: scale(1.01);
+      background-color: $hover_color;
+      color: $color_1;
+    }
+  }
   form {
     margin: 0 auto;
   }
   .form__sec {
+    animation: slideInFromLeft 0.5s ease-in;
     grid-area: form;
     display: flex;
     flex-direction: column;
@@ -54,12 +90,6 @@ $background_color: #f8f9fa;
     a {
       text-decoration: none;
       color: $color_1;
-    }
-    .icon {
-      font-size: 2.5rem;
-      grid-area: icons;
-      padding-right: 10px;
-      padding-left: 3px;
     }
   }
 }

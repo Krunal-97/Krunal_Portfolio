@@ -11,17 +11,19 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Jost:wght@300&family=Open+Sans:wght@300&family=Overpass&display=swap");
-$color_1: #264653;
+$color_1: #151515;
 $color_2: #2a9d8f;
 $color_3: #e9c46a;
 $color_4: #f4a261;
 $color_5: #e76f51;
+$color_6: #264653;
 
 $color1: #a75eea;
 $color2: #37ccff;
 $color3: #2df7a3;
 $color4: #017bfe;
 $background_color: #f8f9fa;
+$hover_color: #ffd700;
 
 .btn {
   background-color: $color_1;
@@ -47,6 +49,7 @@ a {
 
 body {
   line-height: 1.7;
+  background-color: $background_color;
 }
 
 section {
@@ -58,6 +61,55 @@ section {
 .container {
   width: 900px;
   margin: 0 auto;
+}
+.sec__heading {
+  text-align: center;
+  font-size: 1.3rem;
+  color: $hover_color;
+
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+  h1 {
+    display: inline;
+    border-bottom: 1px solid $color_6;
+  }
+  .sec__subheading {
+    color: $color_6;
+  }
+}
+// Animations
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @media only screen and (max-width: 600px) {

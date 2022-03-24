@@ -1,4 +1,6 @@
 .portfolio__container {
+  -webkit-animation: slideInFromTop 0.5s ease-in;
+          animation: slideInFromTop 0.5s ease-in;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(0, 1fr))[2];
@@ -20,7 +22,7 @@
   border-radius: 10px;
   padding: 1rem 0;
   margin-bottom: 2rem;
-  color: #264653;
+  color: #151515;
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: 1px solid #264653;
@@ -75,9 +77,21 @@
   margin-top: 1rem;
 }
 
+.portfolio__container .project__btns .btn {
+  background-image: -webkit-gradient(linear, left top, right top, from(#151515), to(#37ccff));
+  background-image: linear-gradient(to right, #151515, #37ccff);
+  color: #f8f9fa;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
 .portfolio__container .project__btns .btn:hover {
-  border: 1px solid #264653;
-  background-color: #f8f9fa;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  background-image: none;
+  background-color: #ffd700;
   color: #264653;
 }
 

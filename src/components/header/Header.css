@@ -21,6 +21,8 @@
 
 .header__contaier .header__left {
   padding-left: 0;
+  -webkit-animation: slideInFromLeft 0.5s ease-in;
+          animation: slideInFromLeft 0.5s ease-in;
 }
 
 .header__contaier .header__left .header_text {
@@ -56,6 +58,11 @@
 
 .header__contaier .header__left .header__download {
   margin: 1rem 0;
+}
+
+.header__contaier .header__right {
+  -webkit-animation: slideInFromRight 0.5s ease-in;
+          animation: slideInFromRight 0.5s ease-in;
 }
 
 .header__contaier .header__right .right__image img {

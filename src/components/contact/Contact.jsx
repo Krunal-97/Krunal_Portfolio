@@ -28,7 +28,13 @@ export const Contact = () => {
 
   return (
     <div id="contact">
-      <div className="contact__container sec__container">
+      <div className="sec__heading sec__container">
+        <h1>
+          <span className="sec__subheading">Contact </span>
+          Me
+        </h1>
+      </div>
+      <div className="contact__container ">
         <form onSubmit={sendEmail}>
           <div className="form__sec">
             <div className="form_lab">

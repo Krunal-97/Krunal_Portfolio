@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Krunal_Portfolio/static/css/main.4e610a44.css",
-    "main.js": "/Krunal_Portfolio/static/js/main.bd97a1c3.js",
+    "main.css": "/Krunal_Portfolio/static/css/main.abdb4da2.css",
+    "main.js": "/Krunal_Portfolio/static/js/main.2af53b7b.js",
     "static/media/amazon.png": "/Krunal_Portfolio/static/media/amazon.b07b9d3f7ced9325ece7.png",
     "static/media/Ticker.png": "/Krunal_Portfolio/static/media/Ticker.8853fa5ff58ca31e9d16.png",
     "static/media/intelligentSearch.png": "/Krunal_Portfolio/static/media/intelligentSearch.71aa72e6d824c6e8e32d.png",
@@ -11,11 +11,11 @@
     "static/media/profile.jpeg": "/Krunal_Portfolio/static/media/profile.0f6b8092522445fcc93f.jpeg",
     "static/media/WordPress.jpeg": "/Krunal_Portfolio/static/media/WordPress.f2522c346e446ede0686.jpeg",
     "index.html": "/Krunal_Portfolio/index.html",
-    "main.4e610a44.css.map": "/Krunal_Portfolio/static/css/main.4e610a44.css.map",
-    "main.bd97a1c3.js.map": "/Krunal_Portfolio/static/js/main.bd97a1c3.js.map"
+    "main.abdb4da2.css.map": "/Krunal_Portfolio/static/css/main.abdb4da2.css.map",
+    "main.2af53b7b.js.map": "/Krunal_Portfolio/static/js/main.2af53b7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e610a44.css",
-    "static/js/main.bd97a1c3.js"
+    "static/css/main.abdb4da2.css",
+    "static/js/main.2af53b7b.js"
   ]
 }
