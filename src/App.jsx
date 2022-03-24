@@ -21,6 +21,11 @@ function App() {
 
       <Router>
         <Navbar />
+        <Header />
+        <About />
+        <Exprience />
+        <Portfolio />
+        <Contact />
         <Routes>
           <Route
             path="/"
