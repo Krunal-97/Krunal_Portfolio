@@ -11,7 +11,7 @@ const Header = () => {
       <div className="header__contaier">
         <div className="header__left">
           <div className="header_text">
-            <h5>Hello, Nice to meet you! 😊</h5>
+            <h5>Hello, Nice to meet you! 🙋‍♂️</h5>
             <h1>My name is Krunal Parmar.</h1>
             <h3>
               I'm a Full-stack Software Developer situated in Toronto, Canada.👨‍💻

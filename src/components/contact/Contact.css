@@ -1,8 +1,8 @@
 .contact__container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(0, 1fr))[2];
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "form icons";
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -45,7 +45,6 @@
 .contact__container .icon {
   margin: 0 auto;
   font-size: 2rem;
-  margin-right: 0.3rem;
   color: #264653;
 }
 
@@ -101,7 +100,6 @@
 .contact__container .header__icons {
   margin: 0 auto;
   font-size: 1.3rem;
-  margin-right: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

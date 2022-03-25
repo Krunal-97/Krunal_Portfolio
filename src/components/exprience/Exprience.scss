@@ -17,11 +17,9 @@ $hover_color: #ffd700;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
 
   .exprience__section {
-    margin: 2rem 0;
+    margin: 1rem 0;
     color: $color_6;
     padding: 2rem;
     border: 1px solid $color_6;

@@ -14,7 +14,7 @@ $hover_color: #ffd700;
 
 .contact__container {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "form icons";
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@ $hover_color: #ffd700;
   .icon {
     margin: 0 auto;
     font-size: 2rem;
-    margin-right: 0.3rem;
+
     color: $color_6;
     &:hover {
       transition: all 0.5s ease-out;
@@ -82,7 +82,7 @@ $hover_color: #ffd700;
   .header__icons {
     margin: 0 auto;
     font-size: 1.3rem;
-    margin-right: 15rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;

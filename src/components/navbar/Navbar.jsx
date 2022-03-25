@@ -35,7 +35,7 @@ export class Navbar extends Component {
           </li>
           <li className="nav-item">
             <a href="#exprience" className="nav-links">
-              Exprience
+              Experience
             </a>
           </li>
           <li className="nav-item">

@@ -15,22 +15,22 @@ $hover_color: #ffd700;
 .portfolio__container {
   animation: slideInFromTop 0.5s ease-in;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 
   .project {
     height: fit-content;
-    width: 500px;
-    margin: 0 auto;
-
+    max-width: 500px;
+    margin: 0 1rem;
     border-radius: 10px;
-    padding: 1rem 0;
+    padding: 1rem;
     margin-bottom: 2rem;
-
     color: $color_1;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: 1px solid $color_6;
+
     &:hover {
       transition: all 0.5s ease-out;
       border: 1px solid $background_color;
@@ -42,7 +42,7 @@ $hover_color: #ffd700;
       justify-content: center;
       margin: auto;
       height: 200px;
-      width: 350px;
+      max-width: 350px;
       border-radius: 5px;
       margin: 1rem auto;
       box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -57,7 +57,7 @@ $hover_color: #ffd700;
     font-weight: bold;
   }
   .project__description {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
   .project__btns {
     display: flex;
@@ -87,14 +87,6 @@ $hover_color: #ffd700;
     justify-content: center;
     padding: 0;
     margin: 0;
-  }
-  .project {
-    height: fit-content;
-    width: 200px;
-    margin: 0 auto;
-  }
-  img {
-    width: 200px;
   }
 
   .project__btns {

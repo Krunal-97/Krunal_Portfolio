@@ -13,28 +13,25 @@ $background_color: #f8f9fa;
 $hover_color: #ffd700;
 
 .about__container {
-  height: 100vh;
   align-items: center;
   justify-content: space-between;
   .grid__structure {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "photo info info";
-    margin: 0 1rem;
-    padding-top: 2rem;
   }
   .about__image__left {
     animation: slideInFromLeft 0.5s ease-in;
     .left__image {
       background-color: $background_color;
-      height: 310px;
-      width: 300px;
+      height: 250px;
+      width: 250px;
       border-radius: 50%;
       box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
       margin: 0 3rem;
       img {
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
         border-radius: 50%;
       }
     }
@@ -50,6 +47,11 @@ $hover_color: #ffd700;
       color: $color_6;
       font-weight: bold;
       padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      margin: 0 auto;
       &:hover {
         transition: all 0.5s ease-out;
         background-image: linear-gradient(to right, $color_1, $color2);
@@ -73,7 +75,8 @@ $hover_color: #ffd700;
   animation: slideInFromBottom 0.5s ease-in;
   display: flex;
   flex-wrap: wrap;
-  padding: 3rem;
+  padding: 1rem;
+  padding-bottom: 0;
 }
 .skill {
   font-size: 10px;

@@ -8,7 +8,7 @@ import card from "../../assets/CardScanner.png";
 
 const Portfolio = () => {
   return (
-    <div id="portfolio">
+    <div id="portfolio" className="sec__container">
       <div className="sec__heading sec__container">
         <h1>
           My
@@ -20,16 +20,16 @@ const Portfolio = () => {
           <h1 className="project__title">TICKR: Incident Management System</h1>
           <img src={img2} />
           <p className="project__description">
-            • Technologies: React, MongoDB, Express.js, Node.js
+            💻 Technologies: React, MongoDB, Express.js, Node.js
           </p>
           <p className="project__description">
-            • Developed a web app to help customers to raise the system-related
+            ➡️ Developed a web app to help customers to raise the system-related
             issues/tickets for the admin to resolve.
           </p>
 
           <p className="project__description">
-            • Implemented CRUD Operations, JWT authentication, route guards, and
-            audit trail to track the journey of the raised ticket.
+            ➡️ Implemented CRUD Operations, JWT authentication, route guards,
+            and audit trail to track the journey of the raised ticket.
           </p>
 
           <div className="project__btns">
@@ -52,14 +52,14 @@ const Portfolio = () => {
           </h1>
           <img src={img1} />
           <p className="project__description">
-            • Technologies: React, Sass, MongoDB, Python, Python-Flask
+            💻 Technologies: React, Sass, MongoDB, Python, Python-Flask
           </p>
           <p className="project__description">
-            • Developed a web app to help organization to search the answers and
-            covert it to speech from the trained data.
+            ➡️ Developed a web app to help organization to search the answers
+            and covert it to speech from the trained data.
           </p>
           <p className="project__description">
-            • Built Restful APIs for CRUD operation, uploading any files,
+            ➡️ Built Restful APIs for CRUD operation, uploading any files,
             downloading any files.
           </p>
           <div className="project__btns">
@@ -81,17 +81,17 @@ const Portfolio = () => {
           <img src={img3} />
 
           <p className="project__description">
-            • Technologies: React , Redux, Firebase
+            💻 Technologies: React , Redux, Firebase
           </p>
           <p className="project__description">
-            • User can add items to cart, update cart, remove items from cart.
+            ➡️ User can add items to cart, update cart, remove items from cart.
           </p>
           <p className="project__description">
-            • Interactive reusable components built with React and responsive
+            ➡️ Interactive reusable components built with React and responsive
             design.
           </p>
           <p className="project__description">
-            Also, it is deployed using firebase.
+            ➡️ Also, it is deployed using firebase.
           </p>
           <p></p>
           <div className="project__btns">
@@ -117,20 +117,20 @@ const Portfolio = () => {
           <img src={card} />
 
           <p className="project__description">
-            • Technologies: React, Python, Chalice, AWS, DynamoDb
+            💻 Technologies: React, Python, Chalice, AWS, DynamoDb
           </p>
 
           <p className="project__description">
-            • Created a web app that upload any card image to the AWS and fetch
+            ➡️ Created a web app that upload any card image to the AWS and fetch
             the information such as name, number, email, address and so on.
           </p>
           <p className="project__description">
-            • Implemented APIs with Python and Chalice, and fetched it with
+            ➡️ Implemented APIs with Python and Chalice, and fetched it with
             axios in the React. Aftet that, stored card information to the
             database.
           </p>
           <p className="project__description">
-            • Also, it has search all contacts and search by name features.
+            ➡️ Also, it has search all contacts and search by name features.
           </p>
           <div className="project__btns">
             <a className="btn" target="_blank" href="#">
@@ -150,10 +150,11 @@ const Portfolio = () => {
           <h1 className="project__title">WordPress Theme Development</h1>
           <img src={wordpress} />
           <p className="project__description">
-            Technologies:HTML5 , CSS3 , JavaScript , jQuery , PHP , WordPress
+            💻 Technologies: HTML5 , CSS3 , JavaScript , jQuery , PHP ,
+            WordPress
           </p>
           <p className="project__description">
-            • Created a WordPress custom theme that has functionalities such as
+            ➡️ Created a WordPress custom theme that has functionalities such as
             custom header options, custom post-type-based slider, child pages,
             subpages of child pages container, custom footer widget areas
             options, and responsive design.

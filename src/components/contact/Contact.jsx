@@ -77,12 +77,12 @@ export const Contact = () => {
           </div>
         </form>
         <div className="header__icons">
-          <p>Name: Krunal Parmar</p>
+          <p>👨‍💼 Name: Krunal Parmar</p>
           <p>
-            Email:
+            📧 Email:
             <a href="mailto:krunal111797@gmail.com"> krunal111797@gmail.com</a>
           </p>
-          <p>Address: Toronto, Canada, ON.</p>
+          <p>🏡 Address: Toronto, Canada, ON.</p>
           <p>
             <a href="https://www.linkedin.com/in/krunal-97/">
               <BsLinkedin className="icon"></BsLinkedin>
