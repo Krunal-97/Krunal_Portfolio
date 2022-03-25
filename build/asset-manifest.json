@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Krunal_Portfolio/static/css/main.5addc4be.css",
+    "main.css": "/Krunal_Portfolio/static/css/main.82e4c9c9.css",
     "main.js": "/Krunal_Portfolio/static/js/main.9fe66224.js",
     "static/media/amazon.png": "/Krunal_Portfolio/static/media/amazon.b07b9d3f7ced9325ece7.png",
     "static/media/Ticker.png": "/Krunal_Portfolio/static/media/Ticker.8853fa5ff58ca31e9d16.png",
@@ -11,11 +11,11 @@
     "static/media/profile.jpeg": "/Krunal_Portfolio/static/media/profile.0f6b8092522445fcc93f.jpeg",
     "static/media/WordPress.jpeg": "/Krunal_Portfolio/static/media/WordPress.f2522c346e446ede0686.jpeg",
     "index.html": "/Krunal_Portfolio/index.html",
-    "main.5addc4be.css.map": "/Krunal_Portfolio/static/css/main.5addc4be.css.map",
+    "main.82e4c9c9.css.map": "/Krunal_Portfolio/static/css/main.82e4c9c9.css.map",
     "main.9fe66224.js.map": "/Krunal_Portfolio/static/js/main.9fe66224.js.map"
   },
   "entrypoints": [
-    "static/css/main.5addc4be.css",
+    "static/css/main.82e4c9c9.css",
     "static/js/main.9fe66224.js"
   ]
 }
