@@ -84,7 +84,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    height: 90vh;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -93,7 +92,7 @@
     transition: all 0.5s ease;
   }
   .nav-menu.active {
-    background: #242222;
+    background-color: #151515;
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -102,7 +101,7 @@
   }
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
@@ -112,6 +111,8 @@
     left: 0;
     -webkit-transform: translate(25%, 50%);
             transform: translate(25%, 50%);
+    text-align: center;
+    font-size: 1.5rem;
   }
   .menu-icon {
     display: block;
@@ -138,13 +139,12 @@
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
-    border: 1px solid #fff;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    background-image: -webkit-gradient(linear, left top, right top, from(#151515), to(#37ccff));
+    background-image: linear-gradient(to right, #151515, #37ccff);
     -webkit-transition: 250ms;
     transition: 250ms;
   }

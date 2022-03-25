@@ -10,7 +10,6 @@ $color3: #2df7a3;
 $color4: #017bfe;
 $background_color: #f8f9fa;
 $hover_color: #ffd700;
-
 @import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
 .navbar-items {
   display: flex;
@@ -72,15 +71,16 @@ $hover_color: #ffd700;
 }
 
 @media screen and (max-width: 960px) {
-  .navbar-items {
+  nav.navbar-items {
     position: relative;
+    line-height: 1;
   }
 
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+
     position: absolute;
     top: 80px;
     left: -100%;
@@ -89,7 +89,7 @@ $hover_color: #ffd700;
   }
 
   .nav-menu.active {
-    background: #242222;
+    background-image: linear-gradient(to right, $color_1, $color2);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -98,7 +98,7 @@ $hover_color: #ffd700;
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
@@ -108,6 +108,8 @@ $hover_color: #ffd700;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
+    text-align: center;
+    font-size: 1.7rem;
   }
 
   .menu-icon {
@@ -136,13 +138,12 @@ $hover_color: #ffd700;
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
-    border: 1px solid #fff;
+
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    background-image: linear-gradient(to right, $color_1, $color2);
     transition: 250ms;
   }
 }
