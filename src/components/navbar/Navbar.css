@@ -72,8 +72,9 @@
 }
 
 @media screen and (max-width: 960px) {
-  .navbar-items {
+  nav.navbar-items {
     position: relative;
+    line-height: 1;
   }
   .nav-menu {
     display: -webkit-box;
@@ -92,7 +93,8 @@
     transition: all 0.5s ease;
   }
   .nav-menu.active {
-    background-color: #151515;
+    background-image: -webkit-gradient(linear, left top, right top, from(#151515), to(#37ccff));
+    background-image: linear-gradient(to right, #151515, #37ccff);
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -112,7 +114,7 @@
     -webkit-transform: translate(25%, 50%);
             transform: translate(25%, 50%);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .menu-icon {
     display: block;
