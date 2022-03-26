@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Resume from "../../assets/Kruna_Parmar_Resume.pdf";
+import Resume from "../../assets/Krunal_Parmar_Resume.pdf";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import profile_img from "../../assets/profile.png";

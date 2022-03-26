@@ -14,7 +14,7 @@ import { SiMysql } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
 import { SiAmazonaws } from "react-icons/si";
 import { SiOpencv } from "react-icons/si";
-import Resume from "../../assets/Kruna_Parmar_Resume.pdf";
+import Resume from "../../assets/Krunal_Parmar_Resume.pdf";
 
 const About = () => {
   return (
