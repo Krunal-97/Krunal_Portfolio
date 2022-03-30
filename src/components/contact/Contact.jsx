@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
-import { BsLinkedin } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 
 export const Contact = () => {
@@ -85,7 +85,7 @@ export const Contact = () => {
           <p>🏡 Address: Toronto, Canada, ON.</p>
           <p>
             <a href="https://www.linkedin.com/in/krunal-97/">
-              <BsLinkedin className="icon"></BsLinkedin>
+              <FaLinkedin className="icon"></FaLinkedin>
             </a>
             <a href="https://github.com/Krunal-97">
               <FaGithubSquare className="icon"> </FaGithubSquare>

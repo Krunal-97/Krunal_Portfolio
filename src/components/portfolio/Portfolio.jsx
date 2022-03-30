@@ -40,7 +40,11 @@ const Portfolio = () => {
             >
               Visit Project
             </a>
-            <a className="btn" href="#">
+            <a
+              className="btn"
+              target="_blank"
+              href="https://github.com/Krunal-97/Incident_Management"
+            >
               Github
             </a>
           </div>
@@ -63,9 +67,9 @@ const Portfolio = () => {
             downloading any files.
           </p>
           <div className="project__btns">
-            <a className="btn" target="_blank" href="#">
+            {/* <a className="btn" target="_blank" href="#">
               Visit Project
-            </a>
+            </a> */}
             <a
               className="btn"
               target="_blank"
@@ -133,9 +137,9 @@ const Portfolio = () => {
             ➡️ Also, it has search all contacts and search by name features.
           </p>
           <div className="project__btns">
-            <a className="btn" target="_blank" href="#">
+            {/* <a className="btn" target="_blank" href="#">
               Visit Project
-            </a>
+            </a> */}
             <a
               className="btn"
               target="_blank"

@@ -22,7 +22,7 @@ const Exprience = () => {
           <p className="exprience__description">
             👉 Creating and implementing Restful APIs using Python and Flask for
             the image pre-processing and functionalities, and achieved the
-            accuracy of predictions to around 99 percent.
+            accuracy of predictions of more than 90 percent.
           </p>
           <p className="exprience__description">
             👉 Designing the interactive frontend and reusable components with
