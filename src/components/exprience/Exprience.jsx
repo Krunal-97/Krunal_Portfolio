@@ -35,7 +35,7 @@ const Exprience = () => {
           <h4 className="exprience__subtitle">
             🏢 Accupoint Software Solutions, Ahmedabad, India.
           </h4>
-          <h4 className="exprience__subtitle">Nov. 2019 to July 2021</h4>
+          <h4 className="exprience__subtitle">Nov. 2019 to July 2020</h4>
           <p className="exprience__description">
             👉 Worked with team members in the development of the frontend and
             backend of the web applications using technologies such as
