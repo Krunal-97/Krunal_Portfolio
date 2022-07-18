@@ -27,10 +27,17 @@ const Header = () => {
 
           <div className="header__download">
             <a className="btn" target="_blank" href={Resume}>
-              Download Resume
+              Resume
             </a>
             <a className="btn" href="#about">
               About Me
+            </a>
+            <a
+              className="btn"
+              target="_blank"
+              href="https://wimtach.centennialcollege.ca/student-krunal-parmar/"
+            >
+              Featured
             </a>
           </div>
         </div>

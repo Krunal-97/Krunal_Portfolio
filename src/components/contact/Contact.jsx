@@ -80,7 +80,9 @@ export const Contact = () => {
           <p>👨‍💼 Name: Krunal Parmar</p>
           <p>
             📧 Email:
-            <a href="mailto:krunal111797@gmail.com"> krunal111797@gmail.com</a>
+            <a href="mailto:krunal97parmar@gmail.com">
+              krunal97parmar@gmail.com
+            </a>
           </p>
           <p>🏡 Address: Toronto, Canada, ON.</p>
           <p>

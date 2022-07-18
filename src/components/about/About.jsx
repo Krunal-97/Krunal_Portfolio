@@ -33,9 +33,10 @@ const About = () => {
         <div className="about__info__right">
           <div className="about__text">
             <p>
-              I'm Krunal Parmar, and I'm currently enrolled in Centennial
-              College's Software Engineering Artificial Intelligence course. I'm
-              also a student researcher at the WIMTACH, where I am working with
+              I'm Krunal Parmar, and I have an exceptional academic record and
+              graduated from Centennial College with a Post-Graduation in
+              Software Engineering Technology-Artificial Intelligence. I'm also
+              a student researcher at the WIMTACH, where I am working with
               cutting-edge technologies like React, Python, OCR, REST APIs, and
               more.
             </p>
@@ -45,12 +46,11 @@ const About = () => {
               Developer Trainee where I worked on JavaScript, Sass, React,
               Node.js, and so on. As a result, I am willing to broaden my
               horizons by working on projects that require a Full Stack
-              Developer, thanks to my interest and talents in Artificial
-              Intelligence and Software Development.
+              Developer.
             </p>
             <p className="resume">
               <a className="btn" target="_blank" href={Resume}>
-                Download Resume
+                Resume
               </a>
             </p>
           </div>
