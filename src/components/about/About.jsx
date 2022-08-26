@@ -14,7 +14,7 @@ import { SiMysql } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
 import { SiAmazonaws } from "react-icons/si";
 import { SiOpencv } from "react-icons/si";
-import Resume from "../../assets/Krunal_Parmar_Resume.pdf";
+import Resume from "../../assets/Krunal-Parmar-Resume.pdf";
 
 const About = () => {
   return (
@@ -33,20 +33,22 @@ const About = () => {
         <div className="about__info__right">
           <div className="about__text">
             <p>
-              I'm Krunal Parmar, and I have an exceptional academic record and
-              graduated from Centennial College with a Post-Graduation in
-              Software Engineering Technology-Artificial Intelligence. I'm also
-              a student researcher at the WIMTACH, where I am working with
-              cutting-edge technologies like React, Python, OCR, REST APIs, and
-              more.
+              Ambitious Software Developer with 1+ years of development
+              experience in the industry. Proficient in{" "}
+              <strong>
+                Software development, JavaScript, React.js, Node.js, Express.js,
+                Python, REST APIs, and databases.
+              </strong>
             </p>
             <p>
-              In terms of my prior education and experience, I earned a Bachelor
-              of Engineering in Computer Science. And, I worked as a Web
-              Developer Trainee where I worked on JavaScript, Sass, React,
-              Node.js, and so on. As a result, I am willing to broaden my
-              horizons by working on projects that require a Full Stack
-              Developer.
+              Plus, with an exceptional academic record, and graduated from
+              Centennial College with an
+              <strong>
+                Adv. Diploma in Software Engineering Technology-Artificial
+                Intelligence.
+              </strong>
+              With this, earned a
+              <strong>Bachelor of Engineering in Computer Science</strong>.
             </p>
             <p className="resume">
               <a className="btn" target="_blank" href={Resume}>
