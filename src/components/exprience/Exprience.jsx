@@ -12,9 +12,9 @@ const Exprience = () => {
           </h1>
         </div>
         <div className="exprience__section">
-          <h2 className="exprience__title">👨‍💻 Full Stack Developer</h2>
+          <h2 className="exprience__title">👨‍💻 Software Engineer Intern</h2>
           <h4 className="exprience__subtitle">🏢 WIMTACH, Toronto, Canada.</h4>
-          <h4 className="exprience__subtitle">Jan. 2022 – June - 2022</h4>
+          <h4 className="exprience__subtitle">Jan. 2022 – July - 2022</h4>
           <p className="exprience__description">
             👉 Developing React-based OCR application to recognize the text from
             the image and convert that text to the speech.
@@ -30,11 +30,11 @@ const Exprience = () => {
         </div>
 
         <div className="exprience__section">
-          <h2 className="exprience__title">👨‍💻 Web Developer Intern</h2>
+          <h2 className="exprience__title">👨‍💻 Web Developer</h2>
           <h4 className="exprience__subtitle">
             🏢 Accupoint Software Solutions, Ahmedabad, India.
           </h4>
-          <h4 className="exprience__subtitle">Nov. 2019 to July 2020</h4>
+          <h4 className="exprience__subtitle">Nov. 2019 to Dec. 2020</h4>
           <p className="exprience__description">
             👉 Worked with team members in the development of the frontend and
             backend of the web applications.
@@ -44,8 +44,8 @@ const Exprience = () => {
             as Git and Used JIRA for assigned task tracking.
           </p>
           <p className="exprience__description">
-            👉 Used technologies such as JavaScript, React, HTML5, CSS3, Sass
-            and so on.
+            👉 Used technologies such as JavaScript, ReactJS, NodeJS, HTML5,
+            CSS3, Sass and so on.
           </p>
         </div>
       </div>
